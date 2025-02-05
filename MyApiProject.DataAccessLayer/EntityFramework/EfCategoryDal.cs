@@ -15,5 +15,12 @@ namespace MyApiProject.DataAccessLayer.EntityFramework
         public EfCategoryDal(ApiContext context) : base(context)
         {
         }
+
+        public int CategoryCount()
+        {
+            var context=new ApiContext();
+            int values=context.Categories.Count();
+            return values;
+        }
     }
 }

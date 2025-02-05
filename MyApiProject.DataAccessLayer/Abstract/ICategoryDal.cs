@@ -9,5 +9,6 @@ namespace MyApiProject.DataAccessLayer.Abstract
 {
     public interface ICategoryDal:IGenericDal<Category>
     {
+        public int CategoryCount();
     }
 }

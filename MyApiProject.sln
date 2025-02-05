@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApiProject.BusinessLayer"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApiProject.WebApi", "MyApiProject.WebApi\MyApiProject.WebApi.csproj", "{A99EDA05-07C6-4292-8AE9-5B6E6F91C215}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApiProject.DtoLayer", "MyApiProject.DtoLayer\MyApiProject.DtoLayer.csproj", "{598CA760-1DC7-4F7A-8446-E795C87EF660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApiProject.WebUI", "MyApiProject.WebUI\MyApiProject.WebUI.csproj", "{4317DFB6-E083-4C7F-8B8C-D00BE19B9CF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{A99EDA05-07C6-4292-8AE9-5B6E6F91C215}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A99EDA05-07C6-4292-8AE9-5B6E6F91C215}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A99EDA05-07C6-4292-8AE9-5B6E6F91C215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598CA760-1DC7-4F7A-8446-E795C87EF660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598CA760-1DC7-4F7A-8446-E795C87EF660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598CA760-1DC7-4F7A-8446-E795C87EF660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598CA760-1DC7-4F7A-8446-E795C87EF660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4317DFB6-E083-4C7F-8B8C-D00BE19B9CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4317DFB6-E083-4C7F-8B8C-D00BE19B9CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4317DFB6-E083-4C7F-8B8C-D00BE19B9CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4317DFB6-E083-4C7F-8B8C-D00BE19B9CF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
