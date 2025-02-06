@@ -1,0 +1,33 @@
+﻿@model List<MyApiProject.WebUI.Dtos.ResultCategoryDto>
+@{
+    Layout = null;
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<div class="container">
+
+    <table class="table table-bordered"> 
+    <tr>
+        <th>Category Id</th>
+        <th>Category Name</th>
+        <th>Delete</th>
+        <th>Update</th>
+    </tr>
+
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.categoryId</td>
+            <td>@item.categoryName</td>
+            <td><a href="/Categories/DeleteCategory/@item.categoryId/" class="btn btn-danger">sil</a></td>
+            <td><a href="/Categories/UpdateCategory/@item.categoryId/" class="btn btn-danger">güncelle</a></td>
+        </tr>
+    
+    }
+    </table>
+
+    <a href="/Categories/CreateCategory/" class="btn btn-primary"> new category</a>
+
+</div>
+
