@@ -98,7 +98,7 @@ namespace MyApiProject.WebUI.Controllers
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(updateProductDto);
             StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            var response = await client.PutAsync("https://localhost:7118/api/Product/GetProduct/", stringContent);
+            var response = await client.PutAsync("https://localhost:7118/api/Product/", stringContent);
             if (response.IsSuccessStatusCode)
             {
                 return RedirectToAction("ProductList");
